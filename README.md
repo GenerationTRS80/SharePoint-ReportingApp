@@ -1,2 +1,4 @@
 # SharePoint-ReportingApp
-This is an Excel workbook that will pull all the tables from a Access Web app on SharePoint and create adhoc reports
+There are 2 modules in this Excel VBA/VBScript SharePoint-Reporting App. The first module will pull MS Access web database's tables on Sharepoint into an MS Excel spreadsheet. The second module will perform reporting function such as querying the tables that have been imported into the spreadsheet and producing ad-hoc dataset. Those datasets then serve as a source for Pivot Tables. The pivot table are the actual reports the end-user interacts with in the application.
+
+Note: This spreadsheet application can function remotely without having to be connected to the Access web database to perform its reporting functions. All the data that is maintained on the Access Db is in this application. 
