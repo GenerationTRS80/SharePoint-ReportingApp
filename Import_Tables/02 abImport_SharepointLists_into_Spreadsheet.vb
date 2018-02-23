@@ -30,7 +30,9 @@ Private Function abImport_SharepointLists_into_Spreadsheet(xlWrkSht_Button As Ex
   Set Cmd = New ADODB.Command
   Set Conn = New ADODB.Connection
     
-'Open Connection
+ 'Open Connection
+ 'Note: The function can be found in the Git Hub folder Import Table functions named
+ '      Function Public connecting string.vb
   sConnString = PubFN_sConn_SharePoint_PreSalesDb(sTableName01)
   
  'Write SQL statement

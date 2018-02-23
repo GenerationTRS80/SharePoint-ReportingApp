@@ -277,7 +277,7 @@ ProcErr:
     Case 3265 'Description of Item Can NOT be found in the recordset
     'If error then set SUB_PivotSQL_CopyRecordset_to_Spreadsheet = False
       SUB_PivotSQL_CopyRecordset_to_Spreadsheet = False
-      MsgBox " The error # is " & Err.Number & vbCrLf & "Error with CopyRecordset Subroutine ", vbCritical + vbOKOnly
+      Msgsox " The error # is " & Err.Number & vbCrLf & "Error with CopyRecordset Subroutine ", vbCritical + vbOKOnly
       Resume ProcExit
 
     Case -2147467259 'Steam Object can't be read because it is empty
